@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f6bb83a-a92b-4441-aed2-cbb4d187bcf0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Solidity Contract" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1q0jECZhGaC2la2wEfdRYP8vBF4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/inbox" />
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestCreateDIDByPriFile in DIDWallet/cmd">
+    <configuration name="TestContractChairperson in DIDWallet/model (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DIDWallet" />
+      <working_directory value="$PROJECT_DIR$/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DIDWallet/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestContractChairperson\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestContractVoters in DIDWallet/model (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DIDWallet" />
+      <working_directory value="$PROJECT_DIR$/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DIDWallet/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestContractVoters\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestContractVoters in DIDWallet/model (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DIDWallet" />
+      <working_directory value="$PROJECT_DIR$/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DIDWallet/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestContractVoters\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCreateDIDByPriFile in DIDWallet/cmd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DIDWallet" />
+      <working_directory value="$PROJECT_DIR$/cmd" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DIDWallet/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestCreateDIDByPriFile\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestVerifyToAddress in DIDWallet/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DIDWallet" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DIDWallet/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestVerifyToAddress\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestCreateDIDByPriFile in DIDWallet/cmd" />
+        <item itemvalue="Go Test.TestVerifyToAddress in DIDWallet/utils" />
+        <item itemvalue="Go Test.TestContractVoters in DIDWallet/model (2)" />
+        <item itemvalue="Go Test.TestContractChairperson in DIDWallet/model (2)" />
+        <item itemvalue="Go Test.TestContractVoters in DIDWallet/model (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620798811762">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="624" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1620798811762" />
+    <state width="1018" height="646" key="DebuggerActiveHint" timestamp="1620287025370">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1018" height="646" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1620287025370" />
+    <state x="684" y="322" key="FileChooserDialogImpl" timestamp="1616236509767">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="684" y="322" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1616236509767" />
+    <state width="1750" height="311" key="GridCell.Tab.0.bottom" timestamp="1620462034111">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="311" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620462034111" />
+    <state width="1750" height="311" key="GridCell.Tab.0.bottom/0.23.1792.996@0.23.1792.996" timestamp="1617795814825" />
+    <state width="1750" height="311" key="GridCell.Tab.0.bottom/0.23.1792.997@0.23.1792.997" timestamp="1620291274507" />
+    <state width="1750" height="311" key="GridCell.Tab.0.center" timestamp="1620462034110">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="311" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620462034110" />
+    <state width="1750" height="311" key="GridCell.Tab.0.center/0.23.1792.996@0.23.1792.996" timestamp="1617795814824" />
+    <state width="1750" height="311" key="GridCell.Tab.0.center/0.23.1792.997@0.23.1792.997" timestamp="1620291274506" />
+    <state width="1750" height="311" key="GridCell.Tab.0.left" timestamp="1620462034109">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="311" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620462034109" />
+    <state width="1750" height="311" key="GridCell.Tab.0.left/0.23.1792.996@0.23.1792.996" timestamp="1617795814823" />
+    <state width="1750" height="311" key="GridCell.Tab.0.left/0.23.1792.997@0.23.1792.997" timestamp="1620291274505" />
+    <state width="1750" height="311" key="GridCell.Tab.0.right" timestamp="1620462034111">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="311" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620462034111" />
+    <state width="1750" height="311" key="GridCell.Tab.0.right/0.23.1792.996@0.23.1792.996" timestamp="1617795814824" />
+    <state width="1750" height="311" key="GridCell.Tab.0.right/0.23.1792.997@0.23.1792.997" timestamp="1620291274506" />
+    <state width="1750" height="385" key="GridCell.Tab.1.bottom" timestamp="1620300536741">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="385" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620300536741" />
+    <state width="1750" height="327" key="GridCell.Tab.1.bottom/0.23.1792.996@0.23.1792.996" timestamp="1617003867821" />
+    <state width="1750" height="385" key="GridCell.Tab.1.bottom/0.23.1792.997@0.23.1792.997" timestamp="1620286640959" />
+    <state width="1750" height="385" key="GridCell.Tab.1.center" timestamp="1620300536738">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="385" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620300536738" />
+    <state width="1750" height="327" key="GridCell.Tab.1.center/0.23.1792.996@0.23.1792.996" timestamp="1617003867820" />
+    <state width="1750" height="385" key="GridCell.Tab.1.center/0.23.1792.997@0.23.1792.997" timestamp="1620286640957" />
+    <state width="1750" height="385" key="GridCell.Tab.1.left" timestamp="1620300536737">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="385" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620300536737" />
+    <state width="1750" height="327" key="GridCell.Tab.1.left/0.23.1792.996@0.23.1792.996" timestamp="1617003867820" />
+    <state width="1750" height="385" key="GridCell.Tab.1.left/0.23.1792.997@0.23.1792.997" timestamp="1620286640957" />
+    <state width="1750" height="385" key="GridCell.Tab.1.right" timestamp="1620300536739">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="385" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620300536739" />
+    <state width="1750" height="327" key="GridCell.Tab.1.right/0.23.1792.996@0.23.1792.996" timestamp="1617003867820" />
+    <state width="1750" height="385" key="GridCell.Tab.1.right/0.23.1792.997@0.23.1792.997" timestamp="1620286640958" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1616224836672">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1616224836672" />
+    <state width="866" height="560" key="XDebugger.FullValuePopup" timestamp="1620287003282">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="866" height="560" key="XDebugger.FullValuePopup/0.0.1792.1120@0.0.1792.1120" timestamp="1620287003282" />
+    <state width="860" height="560" key="XDebugger.FullValuePopup/0.23.1792.996@0.23.1792.996" timestamp="1617970590455" />
+    <state x="595" y="270" width="602" height="580" key="find.popup" timestamp="1620477491639">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="595" y="270" width="602" height="580" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1620477491639" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1616238565473">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1616238565473" />
+    <state x="722" y="326" key="refactoring.ChangeSignatureDialog" timestamp="1617794565876">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="722" y="326" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1617794565876" />
+    <state x="626" y="473" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1620378375738">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="626" y="473" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1620378375738" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/did_db_test.go</url>
+          <line>79</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/contribution.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/did_db_test.go</url>
+          <line>120</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/did_db_test.go</url>
+          <line>192</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
