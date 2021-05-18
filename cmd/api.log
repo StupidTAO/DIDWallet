@@ -1,0 +1,32 @@
+[ERROR]2021/05/14 14:24:41 logger.go:46: did chaiAddr alread exist
+[ERROR]2021/05/14 14:25:11 logger.go:46: did chaiAddr alread exist
+[INFO]2021/05/14 14:25:42 logger.go:34: did chain addr insert hub success
+[INFO]2021/05/14 14:27:33 logger.go:34: did chain addr insert hub success
+[INFO]2021/05/14 15:30:30 logger.go:34: did chain addr insert hub success
+[INFO]2021/05/14 15:35:28 logger.go:34: did chain addr insert hub success
+[ERROR]2021/05/14 15:36:30 logger.go:46: did chaiAddr alread exist
+[INFO]2021/05/14 15:36:43 logger.go:34: did chain addr insert hub success
+[ERROR]2021/05/14 15:36:43 logger.go:46: did already exist
+[INFO]2021/05/14 15:37:03 logger.go:34: did chain addr insert hub success
+[INFO]2021/05/14 15:37:25 logger.go:34: did chain addr insert hub success
+[ERROR]2021/05/14 15:37:53 logger.go:46: did chaiAddr alread exist
+[INFO]2021/05/14 15:49:12 logger.go:34: did chain addr insert hub success
+[INFO]2021/05/14 15:49:29 logger.go:34: did chain addr insert hub success
+[INFO]2021/05/14 17:27:59 logger.go:34: winning proposal index: 0 
+[INFO]2021/05/16 18:32:10 logger.go:34: tx sent: 0x7a96144e8420cb70992e48ae265fa1f8354051518419eda4a4c83fa3e80db960 
+[ERROR]2021/05/16 18:32:22 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:32:22 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[ERROR]2021/05/16 18:33:13 logger.go:46: private key content too short!
+[INFO]2021/05/16 18:33:35 logger.go:34: tx sent: 0x079dc050bdf0aa08dc4a50121463e5930e54f381f57c99a9bd095aaea62be1d6 
+[INFO]2021/05/16 18:33:55 logger.go:34: tx sent: 0x071a21e1af711086472bd03121017749cbc856550080f122f413403449779ac6 
+[ERROR]2021/05/16 18:34:13 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:34:13 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[ERROR]2021/05/16 18:37:24 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:37:24 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[INFO]2021/05/16 18:38:46 logger.go:34: tx sent: 0x28fc438c603853ebf2176ec13119177d3843c267d0ea9a82dae2e3ed41ac76eb 
+[INFO]2021/05/16 18:39:25 logger.go:34: tx sent: 0x79b72108a3e53747971d6c57883f894ec769d58f2976260a35a0a7fba7b4b151 
+[ERROR]2021/05/16 18:39:46 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:39:46 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[INFO]2021/05/16 19:01:53 logger.go:34: tx sent: 0xd5dad01c37af918ab066f3500dfd3a84ce3c5b36478fcde8885b440669e9fb9a 
+[INFO]2021/05/16 19:01:59 logger.go:34: tx sent: 0x322db143f2fd6a5c939e4703f8fb5e08ca05d548d446243b6ca6b7b54178fc6f 
+[INFO]2021/05/16 19:02:17 logger.go:34: tx sent: 0xe30e93a6a2a52c097dd2f3896ea605ef8a43311bf17968dcae9043befc60c701 

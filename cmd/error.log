@@ -1,0 +1,14 @@
+[ERROR]2021/05/14 14:24:41 logger.go:46: did chaiAddr alread exist
+[ERROR]2021/05/14 14:25:11 logger.go:46: did chaiAddr alread exist
+[ERROR]2021/05/14 15:36:30 logger.go:46: did chaiAddr alread exist
+[ERROR]2021/05/14 15:36:43 logger.go:46: did already exist
+[ERROR]2021/05/14 15:37:53 logger.go:46: did chaiAddr alread exist
+[ERROR]2021/05/16 18:32:22 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:32:22 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[ERROR]2021/05/16 18:33:13 logger.go:46: private key content too short!
+[ERROR]2021/05/16 18:34:13 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:34:13 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[ERROR]2021/05/16 18:37:24 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:37:24 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert
+[ERROR]2021/05/16 18:39:46 logger.go:46: give right to voter: failed to estimate gas needed: VM Exception while processing transaction: revert 
+[ERROR]2021/05/16 18:39:46 logger.go:46: failed to estimate gas needed: VM Exception while processing transaction: revert

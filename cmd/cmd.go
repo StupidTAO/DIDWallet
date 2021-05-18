@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"gopkg.in/urfave/cli.v1"
 	"io/ioutil"
-	"log"
+	"DIDWallet/log"
 	"net/http"
 	URL "net/url"
 	"os"
@@ -200,7 +200,6 @@ func Run() {
 					Name:  "vote",
 					Usage: "vote private_key_file proposalIndex",
 					Action: func(c *cli.Context) error {
-						begin := time.Now().UnixNano()
 						argsCount := len(os.Args)
 						if (argsCount < 4) {
 							fmt.Println("error: please enter complete info")
@@ -227,14 +226,12 @@ func Run() {
 							fmt.Println("contract vote failed, error is ", err)
 							return err
 						}
-						end := time.Now().UnixNano()
-						fmt.Printf("spend time is: %d", end-begin)
 						return nil
 					},
 				},
 				{
 					Name:  "right",
-					Usage: "right address number",
+					Usage: "right did number",
 					Action: func(c *cli.Context) error {
 						argsCount := len(os.Args)
 						if (argsCount < 5) {
@@ -243,7 +240,19 @@ func Run() {
 						}
 
 						//为账户申请票权
-						addr := os.Args[3]
+						did := os.Args[3]
+						addrs, err := hub.FindHubDIDChainAddr(did)
+						if err != nil {
+							fmt.Println("get did chain addr is error!")
+							return nil
+						}
+						if len(addrs) == 0 {
+							fmt.Println("the did is not exist!")
+							return nil
+						}
+						addr := addrs[0].DidChainAddr
+
+						//此处使用数据库中的值
 						number := os.Args[4]
 						num, err := strconv.Atoi(number)
 						if err != nil {
@@ -314,14 +323,19 @@ func Run() {
 				},
 				{	//voters 获取参与者信息
 					Name:  "voters",
-					Usage: "voters address",
+					Usage: "voters did",
 					Action: func(c *cli.Context) error {
 						argsCount := len(os.Args)
 						if (argsCount < 4) {
 							fmt.Println("error: please enter complete info")
 							return nil
 						}
-						addr := os.Args[3]
+						did := os.Args[3]
+						addrs, err := hub.FindHubDIDChainAddr(did)
+						if err != nil {
+							fmt.Println("get did chain addr is error!")
+						}
+						addr := addrs[0].DidChainAddr
 
 						weight, voted, address, vote, err := hub.ContractVoters(common.HexToAddress(addr))
 						if err != nil {
@@ -335,7 +349,7 @@ func Run() {
 				},
 				{	//delaget 设置代理
 					Name:  "delegate",
-					Usage: "delegate address private_key_file",
+					Usage: "delegate did private_key_file",
 					Action: func(c *cli.Context) error {
 						argsCount := len(os.Args)
 						if (argsCount < 5) {
@@ -343,10 +357,16 @@ func Run() {
 							return nil
 						}
 
-						addr := os.Args[3]
+						did := os.Args[3]
+						addrs, err := hub.FindHubDIDChainAddr(did)
+						if err != nil {
+							fmt.Println("get did chain addr is error!")
+						}
+						addr := addrs[0].DidChainAddr
+
 						//获取私钥并设置代理
 						prk := os.Args[4]
-						prk, err := utils.ReadFile(prk)
+						prk, err = utils.ReadFile(prk)
 						if err != nil {
 							fmt.Println("contract revoke failed, error is ", err)
 							return err
@@ -396,7 +416,7 @@ func Run() {
 
 	err := app.Run(os.Args)
 	if err != nil {
-		log.Fatal(err)
+		log.Error(err.Error())
 	}
 }
 
@@ -476,11 +496,11 @@ func createDIDByPriFile(priFile string) error {
 	chainAddr.CreateTime = time.Now().Add(8 * time.Hour)
 	chainAddr.IsAvailable = 1
 
-	err = hub.InsertDBDIDChainAddr(hub.DBDIDChainAddr(*chainAddr))
+	err = hub.InsertHubDIDChainAddr(hub.DBDIDChainAddr(*chainAddr))
 	if err != nil {
 		return err
 	}
-	fmt.Printf("did chain addr insert hub success")
+	log.Info("did chain addr insert hub success")
 	//查询数据库和区块链
 	docs, err := model.FindDBDIDDoc(did)
 	if err != nil {
@@ -490,6 +510,10 @@ func createDIDByPriFile(priFile string) error {
 		//已经存在则什么都不做
 		return errors.New("did already exist")
 	}
+
+	//写入文件中
+	didStr := fmt.Sprintf("%s\n", did)
+	utils.AppendToFile(WALLET_FILE, didStr)
 
 	//写入数据库和区块链
 	doc := new(model.DBDIDDoc)
